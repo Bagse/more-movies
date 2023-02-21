@@ -6,7 +6,7 @@ export function MyRoutes() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<LandingPage />} />
+        <Route exact path="/more-movies" element={<LandingPage />} />
         <Route exact path="/movies/:movieId" element={<MovieDetails />} />
       </Routes>
     </Router>
