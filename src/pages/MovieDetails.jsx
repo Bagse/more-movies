@@ -33,6 +33,14 @@ export function MovieDetails() {
           <strong>Description: </strong>
           {movie.overview}
         </p>
+        <p>
+          <strong>Release date: </strong>
+          {movie.release_date}
+        </p>
+        <p>
+          <strong>Vote average: </strong>
+          {movie.vote_average}
+        </p>
       </div>
     </div>
   );
